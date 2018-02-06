@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Harry Potter - Quizz</string>
+
+    <!-- Image header description -->
+    <string name="desc_image_header">Harry Potter - Quizz</string>
+    <string name="title_header">Quel personnage de Harry Potter es-tu ?</string>
+
+    <!-- Questions list -->
+    <string name="q1">I - Qui a désarmé Dumbledore en haut de la tour ?</string>
+    <string name="q1_r1">Lavande Brown</string>
+    <string name="q1_r2">Gregory Goyle</string>
+    <string name="q1_r3">Drago Malefoy</string>
+    <string name="q1_r4">Severus Rogue</string>
+
+    <string name="q2">II - Dans La Coupe De Feu, quel dragon Harry doit-il affronter ?</string>
+    <string name="q2_r1">L\'oncle Vernon</string>
+    <string name="q2_r2">Un Botruc</string>
+    <string name="q2_r3">Un Magyar à pointes</string>
+    <string name="q2_r4">Le Centaure</string>
+
+    <string name="q3">III - Quel est le nom de l\'elfe de maison qui aide Harry ?</string>
+    <string name="q3_r1">Réponse</string>
+
+    <string name="q4">IV - Quels sont les prénoms de Dumbledore ?</string>
+    <string name="q4_r1">Albus John Paul Ringo</string>
+    <string name="q4_r2">Albus Perceval Wulfric Brian</string>
+    <string name="q4_r3">Albus Minerva Francisco Brian</string>
+    <string name="q4_r4">Albus Perceval Edmond Draco</string>
+
+    <string name="q5">V - Lequel des jumeaux Weasley perd une oreille ?</string>
+    <string name="q5_r1">George Weasley</string>
+    <string name="q5_r2">Bill Weasley</string>
+    <string name="q5_r3">Fred Weasley</string>
+    <string name="q5_r4">Charlie Weasley</string>
+
+    <string name="q6">VI - Quel est le deuxième prénom de Hermione Granger ?</string>
+    <string name="q6_r1">Hermione Jeanne Granger</string>
+    <string name="q6_r2">Hermione Johan Granger</string>
+    <string name="q6_r3">Hermione Jane Granger</string>
+    <string name="q6_r4">Hermione Jean Granger</string>
+
+    <string name="q7">VII - Qui sont les frère(s) et soeur(s) de Ron ?</string>
+    <string name="q7_r1">Lavande</string>
+    <string name="q7_r2">Bill</string>
+    <string name="q7_r3">Barney</string>
+    <string name="q7_r4">Ginny</string>
+
+    <string name="q8">VIII - Quels sont les prénoms des enfants de Ron et de Hermione ?</string>
+    <string name="q8_r1">Oscar et Lavande</string>
+    <string name="q8_r2">Rose et Hugo</string>
+    <string name="q8_r3">R2D2 et C3PO</string>
+    <string name="q8_r4">Lily et James</string>
+
+    <string name="q9">IX - Qui jette le journal de Tom Jedusor dans les toilettes ?</string>
+    <string name="q9_r1">Luna Lovegood</string>
+    <string name="q9_r2">Ginny Weasley</string>
+    <string name="q9_r3">Lavande Brown</string>
+    <string name="q9_r4">Minerva McGonagall</string>
+
+    <string name="q10">X - Quelle est la caractéristique physique de Merope (la mère de Voldemort) ?</string>
+    <string name="q10_r1">Ses yeux ne regardent pas dans la même direction</string>
+    <string name="q10_r2">Il lui manque un doigt</string>
+    <string name="q10_r3">Elle a une cicatrice sur le bras droit</string>
+    <string name="q10_r4">Elle a une jambe en mousse.</string>
+
+    <!-- Commentaires -->
+    <string name="your_score">Votre score: </string>
+    <string name="score_0">MOLDU \nAurais-tu subi un sortilège d\' amnésie ou ne connais-tu vraiment rien au monde de Harry Potter ?</string>
+    <string name="score_10">CRACMOL \nTu as déjà entendu parler de Harry Potter et même peut-être vu les films mais tu devais probablement faire autre chose.</string>
+    <string name="score_20">GREGORY GOYLE \nTu connais le monde magique mais chez toi les muscles comptent plus que l\'intellect !</string>
+    <string name="score_30">RUBEUS HAGRID \nTu aimes te promener dans le château et même dans la forêt interdite, mais de là a avoir retenu les cours de Poudlard il y a un monde.</string>
+    <string name="score_40">LUNA LOVEGOOD \nTu vis dans ton monde, tu portes souvent des boucles d\'oreilles en forme de radis et un collier de bouchon de Bièraubeurre, tu crois aux théories du complot magiques.</string>
+    <string name="score_50">SEAMUS FINNIGAN \n Tu es un sang-mêlé, tu aimes faire croire que tu as passé ton enfance sur un balai mais en cours tu fais tout exploser.</string>
+    <string name="score_60">LANGUE-DE-PLOMB \nTu connais des choses secrètes sur le monde magique mais tu refuses de dire quoi.</string>
+    <string name="score_70">REGULUS BLACK \nTu pensais qu\'être Mangemort serait cool avant de découvrir le véritable visage de Lord Voldemort.</string>
+    <string name="score_80">NEVILLE LONDUBAT \nAu début timide et ridicule, Neville va devenir un sorcier redoutable.</string>
+    <string name="score_90">HERMIONE GRANGER \nComme elle, tu adores lire et tu as dévoré les milliers de pages des aventures de Harry Potter.</string>
+    <string name="score_100">HARRY POTTER \nEn plus d\'avoir lu les livres et vu les films, tu as réellement vécu ses aventures, tu es un sorcier de premier ordre !</string>
+
+    <string name="toast_error">Erreur: veuillez répondre à toutes les questions.</string>
+    <string name="valider">Valider</string>
+</resources>
