@@ -16,12 +16,12 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     /**
-     * Answers
+     * Correct answers
      */
     private static final String[] MY_ARRAY = {"q1_r3", "q2_r3", "Dobby", "q4_r2", "q5_r1", "q6_r4", "q7_r2", "q7_r4", "q8_r2", "q9_r2", "q10_r1"};
 
-    int score = 0;
-    int check = 0;
+    int score;
+    int check;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * On récupère les réponses dans une boucle et on vérifie si ce sont les bonne réponse checkées
+     * Get user answers in a loop and I check if they're correct
      * @param view
      */
     public void onValidForm(View view){
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             if(i == 2) {
                 EditText nameEditText = (EditText) findViewById(R.id.q3_r1);
                 String strResult = nameEditText.getText().toString().replaceAll(" ", "");
-                if (strResult.equals(MY_ARRAY[2])){  score++;  }
+                if (strResult.equalsIgnoreCase(MY_ARRAY[2])){  score++;  }
             }
             else if(i == 6 || i == 7) {
                 CheckBox checkBox = (CheckBox) findViewById(resId);
@@ -73,9 +73,7 @@ public class MainActivity extends AppCompatActivity {
         displayToast(score * 10);
     }
 
-
-    private boolean areAllQuestionsAnswered()
-    {
+    private boolean areAllQuestionsAnswered() {
         int nbCheck = 0;
 
         for(int i=1; i<=10; i++) {
@@ -111,8 +109,6 @@ public class MainActivity extends AppCompatActivity {
 
         return false;
     }
-
-
 
     private void displayToast(int score){
         Context context = getApplicationContext();
